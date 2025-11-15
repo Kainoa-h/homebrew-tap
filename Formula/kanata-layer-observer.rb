@@ -10,12 +10,12 @@ class KanataLayerObserver < Formula
   depends_on arch: :arm64
 
   def install
-    bin.install "kanata_layer_observer"
+    bin.install "kanata-layer-observer"
   end
 
 
   service do
-    run opt_bin/"kanata_layer_observer"
+    run opt_bin/"kanata-layer-observer"
     keep_alive true
     log_path var/"log/kanata-layer-observer.log"
     error_log_path var/"log/kanata-layer-observer.err"
