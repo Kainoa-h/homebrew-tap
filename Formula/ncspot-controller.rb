@@ -1,9 +1,10 @@
 class NcspotController < Formula
   desc "simple prgramme to wrap and control ncspot's unix socket easy integration with other apps like sketchybar"
   homepage "https://github.com/Kainoa-h/ncspot-controller"
-  url "https://github.com/Kainoa-h/ncspot-controller/releases/download/v1.0.0/ncspot-controller-v1.0.0-macos-aarch64.tar.gz"
-  sha256 "6683a742e315f1bd0cca7073b5c11c780ccf78864283ab961c79d01b8b10ffc5"
-  license ""
+  url "https://github.com/Kainoa-h/ncspot-controller/releases/download/v1.0.1/ncspot-controller-v1.0.1-macos-aarch64.tar.gz"
+  sha256 "84e366539bafbd528807595892dad836d98219361fa5bcaced6718ad264ca244"
+  version "1.0.1"
+  license "GPL-3.0"
 
   depends_on arch: :arm64
 
