@@ -1,9 +1,9 @@
 class KanataLayerObserver < Formula
   desc "Simple tcp client that triggers a shell script when kanata switches layers"
   homepage "https://github.com/Kainoa-h/kanata-layer-observer"
-  url "https://github.com/Kainoa-h/kanata-layer-observer/releases/download/v1.0.0/kanata-layer-observer-v1.0.0-macos-aarch64.tar.gz"
-  version "1.0.0"
-  sha256 "bcbceedb11665e50e7716845f3a38496057becafd5c35979012de3470267cc08"
+  url "https://github.com/Kainoa-h/kanata-layer-observer/releases/download/v2.0.0/kanata-layer-observer-v2.0.0-macos-aarch64.tar.gz"
+  version "2.0.0"
+  sha256 "9ae2efa5faee7afc718d154e80a9c2495c22aded71dcbfcfeb8abe448b8d8753"
   license "LGPL-3.0-or-later"
 
   # Only works on Apple Silicon Macs
